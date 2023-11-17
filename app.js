@@ -16,7 +16,7 @@ window.addEventListener("scroll", ()=>{
   authorName.style.transform= `translateX(${offsetY * 0.1}px)`
   jobTitleContainers.style.backgroundPositionY = `${offsetY * 0.5}px`
   jobTitles.style.transform = `translateX(calc(200vh - ${offsetY}px))`
-  projectsTitle.style.transform = `translateY(calc(400vh - ${offsetY}px))`
+  projectsTitle.style.transform = `translateY(calc(300vh - ${offsetY}px))`
   phones.style.transform = `translateX(calc(400vh - ${offsetY}px))`
   laptop.style.transform = `translateX(calc(500vh - ${offsetY}px))`
 })
