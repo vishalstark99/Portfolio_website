@@ -52,7 +52,7 @@
 }
 
 .dark {
-  background: url("./img/bg1.png") rgb(255, 201, 54);
+  background: rgb(255, 201, 54);
 }
 
 
@@ -214,18 +214,15 @@
   background-color: #195b2c;
 }
 
-.githubChart:hover .active:nth-child(2n+1){
-  background-color: #195b2c;
-}
-.githubChart:hover .active:nth-child(2n){
-  background-color: #063f24;
-}
-
 .githubSm{
   display: none;
 }
+,.githubTitle{
+  font-size: 100px;
+}
 .githubButtonTitle{
-  padding: 10px 20px;
+  padding: 10px 50px;
+  margin: 100px;
   font-size: 100px;
   background-color: #333;
   border: 5px solid #555;
@@ -261,8 +258,11 @@
   .githubTitle{
     text-align: center;
     font-size: 10vw;
+    margin : 20px;
   }
-
+  .button{
+    display: none;
+  }
   .githubSm{
     display: flex;
     flex-direction: column;
