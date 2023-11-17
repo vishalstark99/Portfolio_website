@@ -5,7 +5,7 @@
 }
 
 .container {
-  background-color: #111;
+  background-color: pink;
   overflow: hidden;
 }
 
@@ -36,7 +36,7 @@
 
 .nameContainer {
   height: 100vh;
-  background-color: rebeccapurple;
+  background-color: rgb(78, 177, 190);
 }
 
 .name {
@@ -52,11 +52,9 @@
 }
 
 .dark {
-  background: url("./img/bg1.png");
+  background: url("./img/bg1.png") rgb(255, 201, 54);
 }
-/* .purple {
-  background: rebeccapurple url("./img/bg2.png");
-} */
+
 
 .jobTitle {
   font-size: 9vw;
@@ -71,10 +69,12 @@
   gap: 30vh;
   padding: 0px 100px;
 }
-
+.SubHeading{
+  height: 50vh;
+}
 .projectsTitle {
   font-size: 8vw;
-  color: red;
+  color: #333;
 }
 
 .project {
@@ -131,7 +131,7 @@
   font-size: 15px;
   color: #555;
   text-align: justify;
-  line-height: 40px;
+  line-height: 30px;
 }
 
 .projectButton {
@@ -144,24 +144,6 @@
   overflow: hidden;
 }
 
-/* .projectButton::after {
-  content: "View Demo";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: -100%;
-  transition: 1s all;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #555;
-  color: #222;
-}
-
-.projectButton:hover.projectButton::after {
-  transform: translateX(100%);
-} */
 
 .laptop {
   width: 600px;
@@ -245,8 +227,8 @@
 .githubButtonTitle{
   padding: 10px 20px;
   font-size: 100px;
-  background-color: transparent;
-  border: 2px solid #555;
+  background-color: #333;
+  border: 5px solid #555;
   color:red;
   cursor: pointer;
   position: relative;
@@ -278,16 +260,16 @@
 
   .githubTitle{
     text-align: center;
-    font-size: 10vw;
+    font-size:0.1vw;
   }
 
   .githubSm{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     color:#555;
-    font-size: 30px;
+    font-size: 10px;
     text-align: center;
   }
 }
